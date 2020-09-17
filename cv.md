@@ -22,6 +22,8 @@ Last year I developed a passion for programming and started learning HTML/CSS; h
 
 - ES-6
 
+- Ramda, Lodash
+
 You can view some of my works on my [GitHub account](https://github.com/letsget)
 
 ### Work Experience
