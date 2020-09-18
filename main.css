@@ -1,6 +1,44 @@
 .container {
   max-width: 1024px;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  line-height: 2;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-weight: 900;
+  position: absolute;
+  color: green;
+  top: 0;
+  left: -25px;
+}
+
+.profile-image {
+  width: 30%;
+}
+
+.fa-envelope,
+.fa-vk,
+.fa-telegram {
+  font-size: 20px;
+  color: blueviolet;
+  margin: 5px;
+}
+
+.contact-info__details h3 {
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
 .section {
@@ -11,6 +49,16 @@
   width: 30%;
 }
 
+.section-header__text {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
 .section-desc {
   width: 70%;
+}
+
+.profile-image img {
+  width: 200px;
+  border-radius: 50%;
 }
