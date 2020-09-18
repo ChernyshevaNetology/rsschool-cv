@@ -1,0 +1,16 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.section {
+  display: flex;
+}
+
+.section-header {
+  width: 30%;
+}
+
+.section-desc {
+  width: 70%;
+}
